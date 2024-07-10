@@ -212,7 +212,7 @@
         }
         var config = {
             "api": '/dmku/', //弹幕接口
-            "av": '<?php echo ($_GET['1205814863']); ?>', //B站弹幕id 45520296
+            "av": '<?php echo ($_GET['av']); ?>', //B站弹幕id 45520296
             "url": "<?php echo ($_GET['url']); ?>", //视频链接
             "id": "<?php echo (substr(md5($_GET['url']), -20)); ?>", //视频id
             "sid": "<?php echo ($_GET['sid']); ?>", //集数id
